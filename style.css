@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 100px;
+}
+
+.logo {
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.logo span {
+  color: orange;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  margin-right: 20px;
+  font-weight: 600;
+  transition: 0.5s ease;
+}
+
+a:hover {
+  color: blue;
+}
+
+h2 {
+  padding-left: 105px;
+}
+
+.tracks {
+  padding: 50px 110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+.track-style {
+  width: 85em;
+  padding: 20px;
+  font-size: 1.2em;
+  border: 1px solid green;
+  border-radius: 10px;
+  transition: 0.7s ease;
+}
+
+.track-style:hover {
+  background-color: green;
+}
+
+.name {
+  font-size: 1.4em;
+  font-weight: 600;
+}
